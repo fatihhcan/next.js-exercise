@@ -1,11 +1,7 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-
-export default function Home() {
+const About = () => {
   return (
     <div>
-      <h1>homapeage</h1>
+      <h1>About</h1>
       <p>
         It is a long established fact that a reader will be distracted by the
         readable content of a page when looking at its layout. The point of
@@ -18,5 +14,7 @@ export default function Home() {
         accident, sometimes on purpose (injected humour and the like)
       </p>
     </div>
-  )
-}
+  );
+};
+
+export default About;
