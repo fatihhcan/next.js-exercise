@@ -8,7 +8,7 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div>
-      <Navbar/>
+
       <h1>homapeage</h1>
       <p>
         It is a long established fact that a reader will be distracted by the
@@ -22,7 +22,7 @@ export default function Home() {
         accident, sometimes on purpose (injected humour and the like)
       </p>
       <Link href="/features"> See features</Link>
-      <Footer/>
+
     </div>
   )
 }
